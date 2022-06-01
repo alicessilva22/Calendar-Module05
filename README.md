@@ -18,6 +18,7 @@ Application was develop to deploy a daily planner that allows a user to save eve
 - Rows were added in the following format under a tr tag:
 
 ```js   
+
  <td>9AM</td>
  <td>
   <textarea id="9"></textarea>
@@ -35,13 +36,13 @@ Application was develop to deploy a daily planner that allows a user to save eve
 
 
 ## Visuals
-![Calendar Full Page](./assets/images/Horiseon%20full%20site.png)
+![Calendar Full Page](./assets/images/Work-Day-Scheduler.png)
 
 
 ## Resources
 
-- [Repository](https://github.com/alicessilva22/seo-refactor)
-- [Live Site](https://alicessilva22.github.io/seo-refactor/)
+- [Repository](https://github.com/alicessilva22/Calendar-Module05)
+- [Live Site](https://alicessilva22.github.io/Calendar-Module05/)
 
 
 
