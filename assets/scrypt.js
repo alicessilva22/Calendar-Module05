@@ -8,12 +8,12 @@ var saveBtn = $('.saveBtn')
 
 setColor()
 function setColor() {
-    timeBlock.each(function() {
+    timeBlock.each(function () {
         var hour = $(this).attr('id')
 
         if (currentHour > hour) {
             $(this).addClass("past")
-        } else if(currentHour == hour) {
+        } else if (currentHour == hour) {
             $(this).removeClass("past")
             $(this).addClass("present")
         } else {
@@ -25,7 +25,8 @@ function setColor() {
 
 }
 
-saveBtn.on('click', function(event) {
+// storing data in local storage
+saveBtn.on('click', function (event) {
     event.preventDefault()
     var timeBlockId = $(this).attr('id')
     var task = $(this).parent('td').siblings('td').children('textarea').val()
@@ -43,5 +44,5 @@ function getTasks() {
     }
 }
 
-// storing data in local storage
+
 
